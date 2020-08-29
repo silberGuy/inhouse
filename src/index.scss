@@ -30,7 +30,7 @@ body {
     padding: 1em;
 }
 
-.main-content {
+.main-content-front {
     position: relative;
     display: flex;
     flex-flow: column nowrap;
@@ -53,6 +53,10 @@ body {
 
     .title {
         padding: .5em;
+
+        & > img {
+            width: 100%;
+        }
     }
 
     .subtitle {
