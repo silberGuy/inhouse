@@ -3,11 +3,23 @@
     "serve-dev": "parcel src/index.html"
   },
   "devDependencies": {
+    "autoprefixer": "^9.8.6",
     "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^3.2.2",
     "sass": "^1.26.10"
   },
   "browserslist": [
-    "last 1 Chrome version",
-    "last 1 Safari version"
-  ]
+    "last 2 versions"
+  ],
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "overrideBrowserslist": [
+          "> 1%",
+          "last 4 versions",
+          "ie >= 9"
+        ]
+      }
+    }
+  }
 }
