@@ -1,0 +1,62 @@
+.form-content {
+    background-color: var(--bg-dark);
+
+    .registration-form {
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+        justify-content: space-between;
+    }
+    
+    .form-title {
+        margin: 0;
+        text-align: center;
+        font-size: 40px;
+        color: var(--accent-color);
+        background-color: var(--dark-color);
+        border-bottom: solid 4px var(--secondary-color);
+        padding: 0.25em;
+    }
+    
+    .form-inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        color: #e1e1e1;
+
+        .form-input {
+            padding: 4px;
+            width: 100%;
+            -webkit-appearance: none;
+            -moz-appearance: none;       
+        }
+    }
+
+    label {
+        margin-bottom: 1.5em;
+    }
+
+    .form-submit {
+        align-self: center;
+        padding: .5em 1em;
+        font-size: 30px;
+        max-width: 200px;
+        border: none;
+        background-color: var(--accent-color);
+
+        &:active, &:focus {
+            filter: brightness(1.1);
+        }
+    }
+
+    .signature-pad {
+        background-color: white;
+        user-select: none;
+    }
+}

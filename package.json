@@ -6,7 +6,8 @@
     "autoprefixer": "^9.8.6",
     "parcel-bundler": "^1.12.4",
     "postcss-modules": "^3.2.2",
-    "sass": "^1.26.10"
+    "sass": "^1.26.10",
+    "signature_pad": "^3.0.0-beta.3"
   },
   "browserslist": [
     "last 2 versions"

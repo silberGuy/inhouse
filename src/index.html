@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./index.scss">
+    <link rel="stylesheet" href="./flip-card.scss">
+    <link rel="stylesheet" href="./landing.scss">
+    <link rel="stylesheet" href="./form.scss">
     <title>InHouse</title>
 </head>
 <body>
@@ -30,7 +33,35 @@
                 <button id="enter-button" class="enter-button">כניסה</button>
             </div>
             <div class="form-content card-back">
-    
+                <form action="#" class="registration-form">
+                    <h1 class="form-title">
+                        תיאום כניסה לתערוכה
+                    </h1>
+                    <div class="form-inputs">
+                        <label>
+                            שם מלא
+                            <input type="text" id="full-name-input" class="form-input">
+                        </label>
+                        <label>
+                            טלפון
+                            <input type="text" id="phone-input" class="form-input">
+                        </label>
+                        <label>
+                            זמן הגעה רצוי
+                            <div class="form-input">
+                                <input type="number">:<input type="number">
+                            </div>
+                        </label>
+                        
+                        <label>
+                            הנני מצהיר כי לא חשתי באחד מהסימפטומים הקבועים על ידי משרד הבריאות בשבועיים האחרונים
+                            <canvas id="health-signature" class="signature-pad"></canvas>
+                        </label>
+                    </div>
+                    <button class="form-submit">
+                        שלח
+                    </button>
+                </form>
             </div>
         </div>
     </div>
