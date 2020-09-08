@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./landing.scss">
     <link rel="stylesheet" href="./form.scss">
     <title>InHouse</title>
+
+    <script defer src="./users.js"></script>
 </head>
 <body>
     <div class="layout-wrapper">
@@ -33,23 +35,23 @@
                 <button id="enter-button" class="enter-button">כניסה</button>
             </div>
             <div class="form-content card-back">
-                <form action="#" class="registration-form">
+                <form action="#" id="registration-form" class="registration-form">
                     <h1 class="form-title">
                         תיאום כניסה לתערוכה
                     </h1>
                     <div class="form-inputs">
                         <label>
                             שם מלא
-                            <input type="text" id="full-name-input" class="form-input">
+                            <input type="text" name="name" class="form-input">
                         </label>
                         <label>
-                            טלפון
-                            <input type="text" id="phone-input" class="form-input">
+                            מייל
+                            <input type="text" name="email" class="form-input">
                         </label>
                         <label>
                             זמן הגעה רצוי
                             <div class="form-input">
-                                <input type="time" id="time-input" step="900">
+                                <input type="time" name="time" step="900">
                             </div>
                         </label>
                         
@@ -58,7 +60,7 @@
                             <canvas id="health-signature" class="signature-pad"></canvas>
                         </label>
                     </div>
-                    <button class="form-submit">
+                    <button id="form-submit" class="form-submit">
                         שלח
                     </button>
                 </form>

@@ -10,7 +10,7 @@
     "signature_pad": "^3.0.0-beta.3"
   },
   "browserslist": [
-    "last 2 versions"
+    "since 2017-06"
   ],
   "postcss": {
     "plugins": {
@@ -22,5 +22,8 @@
         ]
       }
     }
+  },
+  "dependencies": {
+    "firebase": "^7.19.1"
   }
 }
