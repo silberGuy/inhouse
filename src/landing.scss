@@ -106,5 +106,10 @@
         color: var(--accent-color);
         background-color: var(--dark-color);
         border-top: solid 4px var(--secondary-color);
+
+        &:active, &:focus {
+            filter: brightness(1.15);
+            outline: none;
+        }
     }
 }

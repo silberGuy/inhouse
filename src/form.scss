@@ -8,7 +8,7 @@
     }
     
     .form-title {
-        margin: 0;
+        margin: 0 0 1em 0;
         text-align: center;
         font-size: 40px;
         color: var(--accent-color);
@@ -23,34 +23,51 @@
         align-items: center;
     }
 
-    label {
+    .input-wrapper {
         display: flex;
         flex-direction: column;
         width: 80%;
         color: #e1e1e1;
-
+        margin-bottom: 1.5em;
+        
         .form-input {
             padding: 4px;
             width: 100%;
+            border: none;
             -webkit-appearance: none;
             -moz-appearance: none;       
         }
     }
+    
+    .enter-buttons {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-column-gap: 1em;
 
-    label {
-        margin-bottom: 1.5em;
-    }
+        .enter-btn {
+            padding: .5em 1em;
+            font-size: 25px;
+            border: 2px solid var(--secondary-color);
+            background-color: var(--dark-color);
+            color: #e1e1e1;
+            border-radius: 3px;
+            cursor: pointer;
+            
+            &.action {
+                background-color: var(--accent-color);
+                border: 2px solid var(--accent-border-color);
+                color: #1e1e1e;
+            }
 
-    .form-submit {
-        align-self: center;
-        padding: .5em 1em;
-        font-size: 30px;
-        max-width: 200px;
-        border: none;
-        background-color: var(--accent-color);
+            &:active, &:focus {
+                filter: brightness(1.15);
+                outline: none;
+            }
 
-        &:active, &:focus {
-            filter: brightness(1.1);
+            &.hidden {
+                display: none;
+            }
         }
     }
 

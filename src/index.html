@@ -40,29 +40,23 @@
                         תיאום כניסה לתערוכה
                     </h1>
                     <div class="form-inputs">
-                        <label>
+                        <label class="input-wrapper">
                             שם מלא
                             <input type="text" name="name" class="form-input">
                         </label>
-                        <label>
+                        <label class="input-wrapper">
                             מייל
                             <input type="text" name="email" class="form-input">
                         </label>
-                        <label>
-                            זמן הגעה רצוי
-                            <div class="form-input">
-                                <input type="time" name="time" step="900">
-                            </div>
-                        </label>
-                        
-                        <label>
+                        <label class="input-wrapper">
                             הנני מצהיר כי לא חשתי באחד מהסימפטומים הקבועים על ידי משרד הבריאות בשבועיים האחרונים
                             <canvas id="health-signature" class="signature-pad"></canvas>
                         </label>
+                        <label class="enter-buttons">
+                            <button id="enter-btn" class="enter-btn action">לכניסה</button>
+                            <button id="enter-hour-btn" class="enter-btn">אגיע בשעה הקרובה</button>
+                        </label>
                     </div>
-                    <button id="form-submit" class="form-submit">
-                        שלח
-                    </button>
                 </form>
             </div>
         </div>
