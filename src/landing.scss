@@ -71,6 +71,7 @@
                     padding: .5em 0;
                     line-height: 1em;
                     position: relative;
+                    white-space: nowrap;
 
                     &::after, &::before {
                         content: "";
