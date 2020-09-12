@@ -27,7 +27,7 @@
                     <!-- <img src="./count-bg.jpg" alt="current count" class="count-bg"> -->
                     <div class="count-content">
                         <div class="count-value-wrapper">
-                            <div class="count-value">17</div>
+                            <div id="entries-count" class="count-value">--</div>
                             <div class="count-subtitle">מתארחים כעת!</div>
                         </div>
                     </div>
@@ -53,8 +53,9 @@
                             <canvas id="health-signature" class="signature-pad"></canvas>
                         </label>
                         <label class="enter-buttons">
-                            <button type="button" id="enter-btn" class="enter-btn action">לכניסה</button>
+                            <button type="button" id="enter-btn" class="enter-btn action">אני נכנס/ת</button>
                             <button type="button" id="pending-btn" class="enter-btn">אגיע בשעה הקרובה</button>
+                            <button type="button" id="leave-btn" class="enter-btn hidden">אני יוצא/ת</button>
                         </label>
                     </div>
                 </form>

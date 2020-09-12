@@ -4,6 +4,7 @@ import * as firebase from "firebase/app";
 import "firebase/analytics";
 import "firebase/auth";
 import "firebase/database";
+import "firebase/firestore";
 
 const firebaseConfig = {
     apiKey: "AIzaSyCHL6aO4vDhsDlDK9SBag26JKhkV8lz9iM",
@@ -26,12 +27,23 @@ export async function getUser() {
     return auth.currentUser;
 }
 
-const database = firebase.database();
+const db = firebase.firestore();
+export async function getUserDocRef(uid) {
+    return db.collection('users').doc(uid);
+}
+
 export async function getUserData(uid) {
-    const snapshot = await database.ref(`/users/${uid}`).once('value');
-    return snapshot.val();
+    const docRef = await getUserDocRef(uid);
+    const doc = await docRef.get();
+    return doc.data();
 }
 
 export async function setUserData(uid, data) {
-    firebase.database().ref(`/users/${uid}`).set(data);
+    const docRef = await getUserDocRef(uid);
+    return await docRef.set(data);
+}
+
+export async function getCurrentEnteries(query) {
+    const querySnapshot = await db.collection('users').where('entered', '==', true).get();
+    return querySnapshot.size;
 }
