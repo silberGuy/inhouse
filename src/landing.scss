@@ -122,6 +122,7 @@
         color: var(--accent-color);
         background-color: var(--dark-color);
         border-top: solid 4px var(--secondary-color);
+        font-family: 'Alef', sans-serif;
 
         &:active, &:focus {
             filter: brightness(1.15);
