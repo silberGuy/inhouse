@@ -1,34 +1,35 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 1685 846" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,-330.721,-1983.76)">
-        <g>
-            <g transform="matrix(0.852914,0,0,1,-813.262,1424.87)">
-                <g transform="matrix(1,0,0,0.923479,441.701,97.3451)">
-                    <path d="M998.907,1002.72L899.565,889.607L899.565,1267.76L999.907,1384.94L998.907,1002.72Z" style="fill:rgb(229,105,113);"/>
-                </g>
-                <g transform="matrix(1,0,0,0.936182,1128.53,52.7289)">
-                    <path d="M998.907,1002.72L899.565,896.328L899.565,1300.27L999.907,1410.74L998.907,1002.72Z" style="fill:rgb(229,105,113);"/>
-                </g>
-                <g transform="matrix(1,0,0,0.936182,802.728,79.7528)">
-                    <path d="M998.935,1013.25L899.565,896.328L899.565,1274.48L999.907,1384.94L998.935,1013.25Z" style="fill:rgb(229,105,113);"/>
-                </g>
-                <g transform="matrix(1,0,0,1,1154.99,0)">
-                    <path d="M545.044,919.879L973.45,1376.31" style="fill:none;stroke:rgb(255,200,112);stroke-width:8.97px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,1154.99,-356.824)">
-                    <path d="M545.044,919.879L973.45,1348.29" style="fill:none;stroke:rgb(255,200,112);stroke-width:8.97px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,1154.99,0)">
-                    <path d="M647.646,669.71L286.572,1024.78L186.275,919.879L543.099,563.055L647.646,669.71Z" style="fill:rgb(255,200,112);"/>
-                </g>
-            </g>
-            <g transform="matrix(5.89218,0,0,9.09053,-5835.18,-21997.1)">
-                <text x="1167.71px" y="2727.92px" style="font-family: 'Varela Round', sans-serif;font-size:50px;fill:rgb(255,200,112);">HOUSE</text>
-            </g>
-            <g transform="matrix(1,0,0,1,-61.0547,-88.6299)">
-                <circle cx="2048.12" cy="2889.81" r="27.7" style="fill:rgb(229,105,113);"/>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:serif="http://www.serif.com/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 340.1 415.6"
+	 style="enable-background:new 0 0 340.1 415.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E56971;}
+	.st1{fill:none;stroke:#FFC870;stroke-width:8.97;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;}
+	.st2{fill:#FFC870;}
+</style>
+<g transform="matrix(1,0,0,1,-330.721,-1983.76)">
+	<g>
+		<g transform="matrix(0.852914,0,0,1,-813.262,1424.87)">
+			<g transform="matrix(1,0,0,0.923479,441.701,97.3451)">
+				<path class="st0" d="M949.2,754.1l-49.6-56.5v188.9l50.1,58.5L949.2,754.1z"/>
+			</g>
+			<g transform="matrix(1,0,0,0.936182,1128.53,52.7289)">
+				<path class="st0" d="M605.5,774.5l-49.6-53.2v201.8l50.1,55.2L605.5,774.5z"/>
+			</g>
+			<g transform="matrix(1,0,0,0.936182,802.728,79.7528)">
+				<path class="st0" d="M768.6,765.4l-49.6-58.4v188.9l50.1,55.2L768.6,765.4z"/>
+			</g>
+			<g transform="matrix(1,0,0,1,1154.99,0)">
+				<path class="st1" d="M368.6,745.4l208.6,222.2"/>
+			</g>
+			<g transform="matrix(1,0,0,1,1154.99,-356.824)">
+				<path class="st1" d="M366.7,921.2L577,1131.6"/>
+			</g>
+			<g transform="matrix(1,0,0,1,1154.99,0)">
+				<path class="st2" d="M416.8,617.1L236.4,794.5l-50.1-52.4l178.3-178.3L416.8,617.1z"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
