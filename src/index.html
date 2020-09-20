@@ -27,15 +27,27 @@
                     ~ בית לאומנות עצמאית ~
                 </div>
                 <div class="count-wrapper">
-                    <!-- <img src="./count-bg.jpg" alt="current count" class="count-bg"> -->
                     <div class="count-content">
                         <div class="count-value-wrapper">
                             <div id="entries-count" class="count-value">--</div>
-                            <div class="count-subtitle">מתארחים כעת!</div>
+                            <div class="count-subtitle">
+                                <p>מתארחים כעת!</p>
+                                <p>(ועוד <span id="pending-count">3</span> בדרך)</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <button id="show-form-btn" class="show-form-btn">כניסה</button>
+                <div class="info">
+                    <h2>נהלי קורונה:</h2>
+                    <p>התערוכה מוגבלת לעד 20 אורחים, יש לעטות מסיכות בכל עת בביקורכם בתערוכה, יש לחתום על הצהרת בריאות לפני הכניסה לתערוכה. לשאלות ניתן לפנות לנטע: 058-431-3782 או עופר 054-659-2000.</p>
+                </div>
+                <div class="location">
+                    <div class="location-text">
+                        <p>התערוכה תתקיים בתאריכים 18.10-20.10 בשעות 17:00-21:00 בסוקולוב 70 רמת השרון</p>
+                    </div>
+                    <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=%D7%A1%D7%95%D7%A7%D7%95%D7%9C%D7%95%D7%91%2070%20%D7%A8%D7%9E%D7%AA%20%D7%94%D7%A9%D7%A8%D7%95%D7%9F+(INHOUSE)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+                </div>
+                <button id="show-form-btn" class="button show-form-btn">כניסה</button>
             </div>
             <div class="form-content card-back">
                 <form action="#" id="registration-form" class="registration-form">
@@ -57,9 +69,9 @@
                         </label>
                     </div>
                     <label class="enter-buttons">
-                        <button type="button" id="enter-btn" class="enter-btn action">אני נכנס/ת</button>
-                        <button type="button" id="pending-btn" class="enter-btn">אגיע בשעה הקרובה</button>
-                        <button type="button" id="leave-btn" class="enter-btn hidden">אני יוצא/ת</button>
+                        <button type="button" id="enter-btn" class="button enter-btn action">אני נכנס/ת</button>
+                        <button type="button" id="pending-btn" class="button enter-btn">אגיע בשעה הקרובה</button>
+                        <button type="button" id="leave-btn" class="button enter-btn hidden">אני יוצא/ת</button>
                     </label>
                 </form>
             </div>

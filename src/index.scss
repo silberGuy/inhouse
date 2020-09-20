@@ -45,6 +45,22 @@ body {
     }
 }
 
+.button {
+    cursor: pointer;
+    border: none;
+    font-size: 3em;
+    letter-spacing: 1.5px;
+    color: var(--accent-color);
+    background-color: var(--dark-color);
+    border-top: solid 4px var(--secondary-color);
+    font-family: 'Alef', sans-serif;
+
+    &:active, &:focus {
+        filter: brightness(1.15);
+        outline: none;
+    }
+}
+
 @media only screen and (max-height: 700px) {
     body {
         height: auto;

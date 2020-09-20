@@ -48,20 +48,13 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         grid-column-gap: 0em;
+        min-height: 75px;
+        font-size: 0.5em;
 
         .enter-btn {
-            padding: .5em 1em;
-            font-size: 25px;
-            border: none;
-            border-top: 2px solid var(--secondary-color);
-            background-color: var(--dark-color);
-            font-family: 'Alef', sans-serif;
-            color: #e1e1e1;
-            cursor: pointer;
-            
             &.action {
                 background-color: var(--accent-color);
-                border-top: 2px solid var(--accent-border-color);
+                border-top: 4px solid var(--accent-border-color);
                 color: #1e1e1e;
             }
 
