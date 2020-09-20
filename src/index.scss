@@ -42,6 +42,7 @@ body {
 
     #main-content {
         max-width: 900px;
+        height: 100%;
     }
 }
 
@@ -64,5 +65,9 @@ body {
 @media only screen and (max-height: 700px) {
     body {
         height: auto;
+        min-height: 100vh;
+        min-height: -moz-availabe;
+        min-height: -webkit-fill-available;
+        min-height: stretch;
     }
 }
