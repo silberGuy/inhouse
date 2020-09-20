@@ -15,6 +15,7 @@ const signatureCanvas = document.querySelector('#health-signature');
 window.onload = async function() {
     const currentEntries = await getCurrentEnteries();
     entriesCountElement.innerText = currentEntries;
+    resizeCanvas();
 }
 
 showFormButton.addEventListener('click', showForm);
@@ -25,6 +26,8 @@ signatureCanvas.addEventListener('selectionstart', function (selectEvent) {
     selectEvent.stopPropagation();
     selectEvent.preventDefault();
 });
+
+window.addEventListener("resize", resizeCanvas);
 
 pendingButton.addEventListener('click', async () => {
     await saveFormDataToUser({ pendingStart: new Date() });
@@ -81,4 +84,12 @@ async function updateForm() {
             };
         }
     }
+}
+
+function resizeCanvas() {
+    var ratio =  Math.max(window.devicePixelRatio || 1, 1);
+    signatureCanvas.width = signatureCanvas.offsetWidth * ratio;
+    signatureCanvas.height = signatureCanvas.offsetHeight * ratio;
+    signatureCanvas.getContext("2d").scale(ratio, ratio);
+    signaturePad.clear(); // otherwise isEmpty() might return incorrect value
 }
