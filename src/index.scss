@@ -44,3 +44,9 @@ body {
         max-width: 500px;
     }
 }
+
+@media only screen and (max-height: 700px) {
+    body {
+        height: auto;
+    }
+}

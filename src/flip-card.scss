@@ -33,3 +33,30 @@
         pointer-events: all;
     }
 }
+
+
+@media only screen and (max-height: 700px) {
+    .flip-card {
+        .card-back,
+        .card-back {
+            position: relative;
+        }
+
+        .card-back {
+            visibility: hidden;
+            transform: none;
+        }
+    }
+
+    .flip-card.show-back {
+        transform: none;
+
+        .card-front {
+            display: none;
+        }
+
+        .card-back {
+            visibility: visible;
+        }
+    }
+}
